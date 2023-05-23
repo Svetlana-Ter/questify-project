@@ -1,0 +1,10 @@
+.main {
+  padding-top: 25px;
+}
+
+.btn {
+  position: fixed;
+
+  bottom: 20px;
+  right: 15px;
+}

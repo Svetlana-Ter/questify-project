@@ -1,0 +1,10 @@
+.btn {
+  height: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.icon {
+  fill: #3e4e6c;
+}

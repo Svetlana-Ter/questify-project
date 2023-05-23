@@ -1,0 +1,22 @@
+.container {
+  outline: none;
+  border: none;
+
+  background: var(--white-color);
+
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: 0;
+}
+.options {
+  padding: 10px;
+}
+
+.options {
+  position: absolute;
+  right: 69%;
+  width: 90px;
+  height: 80px;
+}

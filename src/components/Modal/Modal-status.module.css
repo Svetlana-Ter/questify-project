@@ -1,0 +1,45 @@
+.modal {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  z-index: 1;
+  width: 90px;
+  height: 110px;
+  background: var(--white-color);
+  box-shadow: -3px -4px 4px rgba(21, 57, 90, 0.05), 3px 4px 4px rgba(21, 57, 90, 0.05);
+  border-radius: 10px;
+}
+
+.list {
+  margin-top: 10px;
+}
+
+.modalContent {
+  display: flex;
+  justify-content: left;
+
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 11px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.modalContent:hover {
+  color: var(--bg-stuff);
+  cursor: pointer;
+}
+
+.challenge {
+  background-color: var(--challenge-secondary-color);
+  color: var(--bg-stuff);
+}
+
+.challengeText:hover {
+  color: var(--primary-text-color);
+}
